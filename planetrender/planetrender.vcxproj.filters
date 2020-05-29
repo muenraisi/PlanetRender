@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\StaticDependancies">
+      <UniqueIdentifier>{f4df241b-4081-4351-af05-e1a2fa9fb31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StaticDependancies\glad">
+      <UniqueIdentifier>{7bb7fe4e-6d05-446d-a7c4-ebc648b3e32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlanetTech">
+      <UniqueIdentifier>{3ad573df-50e7-446a-bea0-d756272615ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlanetTech\Types">
+      <UniqueIdentifier>{e863926b-621b-4cfc-b470-39df45392626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PlanetFramework\BinaryReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Context.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\InputManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Scene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Screenshot.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Settings.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Singleton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\SpriteFont.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\TextRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Time.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\Transform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Frustum.h">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Patch.h">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Planet.h">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\stdafx.h">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Triangulator.h">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Types\Earth.h">
+      <Filter>Source Files\PlanetTech\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Types\Moon.h">
+      <Filter>Source Files\PlanetTech\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\PlanetTech\Types\stdafx.h">
+      <Filter>Source Files\PlanetTech\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\StaticDependancies\glad\glad.h">
+      <Filter>Source Files\StaticDependancies\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlanetFramework\StaticDependancies\glad\stdafx.h">
+      <Filter>Source Files\StaticDependancies\glad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\PlanetFramework\BinaryReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Screenshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\SpriteFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\TextRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Frustum.cpp">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Patch.cpp">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Planet.cpp">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Triangulator.cpp">
+      <Filter>Source Files\PlanetTech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Types\Earth.cpp">
+      <Filter>Source Files\PlanetTech\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\PlanetTech\Types\Moon.cpp">
+      <Filter>Source Files\PlanetTech\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlanetFramework\StaticDependancies\glad\glad.cpp">
+      <Filter>Source Files\StaticDependancies\glad</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
